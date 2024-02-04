@@ -4,7 +4,7 @@
 
 ![Resultado do projeto](img/img-arts.png)
 
-<h4 align="center"><a href="https://pablo-m-santos.github.io/Portfolio/">Clique para visitar o meu projeto ( EM DESENVOLVIMENTO!! )</a></h4>
+<h4 align="center"><a href="https://pablo-m-santos.github.io/Portfolio/">Clique para visitar o projeto</a></h4>
 
 ## 🌳 Projeto
 A Eletronic Arts é tipo a loja dos sonhos para quem curte games, com um monte de consoles, PCs, acessórios e jogos de todos os tipos!
