@@ -1,71 +1,78 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    background-color: #24252a;
-    color: white;
-}
-
+/* css do nav */
 li, A, button{
-    font-family: "montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #edf0f1;
-    text-decoration: none;
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
+
+hr {
+  color: white;
+}
+
+.logo-img  a{ 
+  text-decoration: none;
 }
 
 .logo{
-    cursor: pointer;
-    border-radius: 30px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.contato button{
+  border-radius: 50px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252a;
 }
 
 .nav_links{
-    list-style: none;
+  list-style: none;
+  
 }
 
 .nav_links li{
-    display: inline-block;
-    padding: 0px 20px;
+  display: inline-block;
+  padding: 0px 20px;
+  
 }
 
 .nav_links li a {
-    transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  color: white;
+  text-decoration: none;
 }
 
 .nav_links li a:hover {
-    color: #0088a9;
+  color: #0088a9;
 }
 
 button{
-    padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
 
-
 button:hover{
-    background-color: rgba(0, 136, 169, 0.8);
+  background-color: rgba(0, 136, 169, 0.8);
 }
 
 h1{
-    display: inline;
-    padding: 10px;
-    color: #edf0f1;
+  display: inline;
+  padding: 10px;
+  color: #edf0f1;
 }
-
 #event-subscription {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
       url("./img-home-1.jpg.png");
@@ -75,6 +82,7 @@ h1{
     display: flex;  
     justify-content: space-around;
     align-items: center;
+    color: white;
   }
   
   #disclaimer h2 {
@@ -198,6 +206,7 @@ h1{
     align-items: center;
     justify-content: space-around;
     margin-bottom: 3em;
+    color: white;
   }
   
   #address,
@@ -290,12 +299,14 @@ h1{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    color: white;
   }
   
   #cta h3 {
     margin-bottom: 1.2em;
     font-size: 2em;
     font-weight: 500;
+    color: white;
   }
   
   #cta .btn {
@@ -303,6 +314,9 @@ h1{
     margin: 0 auto;
     font-weight: 600;
     font-size: 1.2em;
+    color: white;
+    background-color: #0088a9;
+    border-radius: 20px;
   }
   
   /* Footer */
